@@ -1,17 +1,15 @@
-import logo from './logo.svg';
-import Card from './Components/Card';
+import NewTask from './Components/NewTask/NewTask';
+import Tasks from './Components/Tasks/Tasks';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Card cardSection='todo-input'/>
-        <Card cardSection='todo-list' />
+        <NewTask></NewTask>
+        <Tasks></Tasks>
       </header>
-      
-      
-      
       
     </div>
   );

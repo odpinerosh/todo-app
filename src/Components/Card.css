@@ -6,3 +6,15 @@
     min-width: 320px;
     width: 60vw;
 }
+
+.addTasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 0.5rem;
+}
+
+.taskList {
+    color: black;
+    font-size: 0.8rem;
+}
